@@ -6,7 +6,7 @@ module.exports = {
   NOM_OWNER: process.env.NOM_OWNER || "VNVT",
   NUMERO_OWNER: process.env.NUMERO_OWNER || "22891983438",
   MODE: process.env.MODE || "private",
-  SESSION_ID: process.env.SESSION_ID || "ovl",
+  SESSION_ID: process.env.SESSION_ID || "Ovl-MD_uWNvbQ3s_SESSION-ID",
   LEVEL_UP: process.env.LEVEL_UP || "non",
   STICKER_PACK_NAME: process.env.STICKER_PACK_NAME || "Wa-sticker",
   STICKER_AUTHOR_NAME: process.env.STICKER_AUTHOR_NAME || "OVL-MD",
