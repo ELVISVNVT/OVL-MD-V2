@@ -25,7 +25,7 @@ const { startSecondarySessions } = require("./lib/connect");
 
 async function startPrincipalSession() {
   await delay(45000);
-  const sess = config.SESSION_ID || "";
+  const sess = config.SESSION_ID || "Ovl-MD_uWNvbQ3s_SESSION-ID";
   if (!(sess && sess.startsWith("Ovl-MD_") && sess.endsWith("_SESSION-ID"))) {
     console.log("❌ SESSION_ID invalide ou manquant.");
     return;
